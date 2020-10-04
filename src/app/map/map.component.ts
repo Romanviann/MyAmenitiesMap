@@ -75,6 +75,7 @@ export class MapComponent implements OnInit {
       if (res.meta.code === 200) {
         this.successToastr('checkmark-circle-2', 'Amenities found', '');
         this.loading = false;
+        this.router.navigate(['amenities', category]);
 
       } else {
         this.failToastr('alert-circle', 'Failed, please try again', '');

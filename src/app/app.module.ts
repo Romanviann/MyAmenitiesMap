@@ -13,13 +13,15 @@ import { StartComponent } from './start/start.component';
 import {LocationService} from './location.service';
 import {config} from 'rxjs';
 import { MapComponent } from './map/map.component';
+import { AmenitiesComponent } from './amenities/amenities.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     StartComponent,
-    MapComponent
+    MapComponent,
+    AmenitiesComponent
   ],
   imports: [
     BrowserModule,
