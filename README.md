@@ -1,6 +1,13 @@
-# MyAmenitiesMap
+# About
+Amenities Map has been deceloped during MLH's HeroHacks Hackathon. It mitigates the struggle of finding different nearby amenities since COVID-19 has disrupted the opening/closing times of businesses. It also provides users with the needed safety regulations befoer heading out.
+
+# Technologies Used
+This project uses the latest Angular 10.14, Nebular Angular Components framework, and Bulma CSS framework.
+
+# Project CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+
 
 ## Development server
 
