@@ -4,7 +4,7 @@
 Amenities Map has been deceloped during MLH's HeroHacks Hackathon. It mitigates the struggle of finding different nearby amenities since COVID-19 has disrupted the opening/closing times of businesses. It also provides users with the needed safety regulations before heading out.
 
 # Frontend Technologies Used
-This project uses the latest Angular 10.14, Nebular Angular Components framework, and Bulma CSS framework.
+This project uses the latest Angular 10.1.4, Nebular Angular Components framework, and Bulma CSS framework.
 
 # Backend & APIs
 Radar.io's IP Geocode and Search Places APIs were used to get the location of the user as well as the nearby amenities.
