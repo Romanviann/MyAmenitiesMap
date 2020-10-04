@@ -1,3 +1,5 @@
+![Amenities Map Logo Banner](https://i.imgur.com/7RpjvVT.png)
+
 # About
 Amenities Map has been deceloped during MLH's HeroHacks Hackathon. It mitigates the struggle of finding different nearby amenities since COVID-19 has disrupted the opening/closing times of businesses. It also provides users with the needed safety regulations befoer heading out.
 
