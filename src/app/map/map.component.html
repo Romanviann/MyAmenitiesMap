@@ -1,0 +1,28 @@
+<section class="is-large">
+  <p class="title is-3 has-text-weight-bold">What are you looking for today?</p>
+  <p class="subtitle">places around {{currentAddress}}</p>
+  <div class="columns">
+    <div *ngFor="let item of items" class="column">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/{{item.image}}" width="400" alt="Placeholder image">
+        </div>
+        <div class="card-content">
+          <p class="title has-text-weight-bold">{{item.title}}</p>
+
+          <div class="content">
+            <p>{{item.desc}}</p>
+            <br>
+            <footer class="card-footer">
+              <button (click)="getAmenities(item.title, item.categories)" nbButton status="primary" shape="semi-round" hero class="card-footer-item mt-4">Let's Go <nb-icon icon="arrow-forward"></nb-icon></button>
+            </footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
