@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {NbSidebarService} from '@nebular/theme';
 import {Router} from '@angular/router';
 
@@ -9,7 +9,9 @@ import {Router} from '@angular/router';
 })
 export class MainComponent implements OnInit {
 
-  constructor(private sidebarService: NbSidebarService, private router: Router) { }
+
+  constructor(private sidebarService: NbSidebarService, private router: Router) {
+  }
 
   ngOnInit(): void {
     this.router.navigate(['start']);
