@@ -11,10 +11,6 @@ import {Router} from '@angular/router';
 export class MapComponent implements OnInit {
 
   constructor(private locationServices: LocationService, private toastrService: NbToastrService, private router: Router) { }
-
-  ngOnInit(): void {
-  }
-
   address = JSON.parse(localStorage.getItem('address'));
 
   currentAddress = this.address.address.city + ', ' + this.address.address.state + ' - ' + this.address.address.countryCode;
@@ -22,21 +18,6 @@ export class MapComponent implements OnInit {
   longitude = 0;
   latitude = 0;
   loading = false;
-
-  failToastr(icon, title, message) {
-    const iconConfig: NbIconConfig = {icon, pack: 'eva', status: 'danger'};
-    this.toastrService.show(message, title, iconConfig);
-  }
-
-  successToastr(icon, title, message) {
-    const iconConfig: NbIconConfig = {icon, pack: 'eva', status: 'success'};
-    this.toastrService.show(message, title, iconConfig);
-  }
-
-  infoToastr(icon, title, message) {
-    const iconConfig: NbIconConfig = {icon, pack: 'eva', status: 'info'};
-    this.toastrService.show(message, title, iconConfig);
-  }
 
   items = [
     { id: 1,
@@ -64,7 +45,28 @@ export class MapComponent implements OnInit {
       desc: "public parks, sports fields, and similar spots. This includes state-parks, playgrounds, and other outdoor places"
     }
   ];
+  ngOnInit(): void {
+  }
 
+  // tslint:disable-next-line:typedef
+  failToastr(icon, title, message) {
+    const iconConfig: NbIconConfig = {icon, pack: 'eva', status: 'danger'};
+    this.toastrService.show(message, title, iconConfig);
+  }
+
+  // tslint:disable-next-line:typedef
+  successToastr(icon, title, message) {
+    const iconConfig: NbIconConfig = {icon, pack: 'eva', status: 'success'};
+    this.toastrService.show(message, title, iconConfig);
+  }
+
+  // tslint:disable-next-line:typedef
+  infoToastr(icon, title, message) {
+    const iconConfig: NbIconConfig = {icon, pack: 'eva', status: 'info'};
+    this.toastrService.show(message, title, iconConfig);
+  }
+
+  // tslint:disable-next-line:typedef
   getAmenities(title, category) {
     this.infoToastr('search', 'Searching for ' + title, '');
     this.longitude = this.address.address.longitude;
