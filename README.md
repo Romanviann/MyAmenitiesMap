@@ -1,7 +1,7 @@
 ![Amenities Map Logo Banner](https://i.imgur.com/7RpjvVT.png)
 
 # About
-Amenities Map has been deceloped during MLH's HeroHacks Hackathon. It mitigates the struggle of finding different nearby amenities since COVID-19 has disrupted the opening/closing times of businesses. It also provides users with the needed safety regulations befoer heading out.
+Amenities Map has been deceloped during MLH's HeroHacks Hackathon. It mitigates the struggle of finding different nearby amenities since COVID-19 has disrupted the opening/closing times of businesses. It also provides users with the needed safety regulations before heading out.
 
 # Technologies Used
 This project uses the latest Angular 10.14, Nebular Angular Components framework, and Bulma CSS framework.
