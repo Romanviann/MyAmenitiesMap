@@ -13,7 +13,7 @@ export class MapComponent implements OnInit {
   constructor(private locationServices: LocationService, private toastrService: NbToastrService, private router: Router) { }
   address = JSON.parse(localStorage.getItem('address'));
 
-  currentAddress = this.address.address.city + ', ' + this.address.address.state + ' - ' + this.address.address.countryCode;
+  currentAddress = this.address.address.city + ', ' + this.address.address.state + ' - ' + this.address.address.countryCode + ' ' + this.address.address.countryFlag;
 
   longitude = 0;
   latitude = 0;

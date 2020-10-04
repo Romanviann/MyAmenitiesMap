@@ -7,10 +7,10 @@ import {MapComponent} from './map/map.component';
 import {AmenitiesComponent} from './amenities/amenities.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent},
   { path: 'start', component: StartComponent},
   { path: 'map', component: MapComponent},
-  { path: 'amenities/:categories', component: AmenitiesComponent}
+  { path: 'amenities/:categories', component: AmenitiesComponent},
+  { path: '**', component: AppComponent}
 ];
 
 @NgModule({

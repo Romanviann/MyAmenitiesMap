@@ -13,7 +13,7 @@ export class LocationService {
 
   httpHeaders = new HttpHeaders({
     'Content-Type': 'application/json',
-    Authorization: 'prj_test_sk_f3515427f4bf67830b5090e5acd7a9c363189345'
+    Authorization: 'prj_live_pk_434a3a7489e0d2a3517edf0044b3af4a0ff8c8ab'
   });
 
   getLocation(){
