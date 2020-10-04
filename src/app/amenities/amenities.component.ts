@@ -15,5 +15,8 @@ export class AmenitiesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goBack(){
+    this.router.navigate(['map']);
+  }
 
 }

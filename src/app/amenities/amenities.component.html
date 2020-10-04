@@ -1,12 +1,79 @@
 <section class="is-medium">
-  <p class="title is-3 has-text-weight-bold">Open Amenities Found</p>
-  <p class="subtitle is-inline-block mr-3">search criteria</p>
-  <div class="control is-inline-block">
+  <div class="is-inline-block">
+  <nb-icon (click)="goBack()" class="is-size-3 is-clickable" icon="arrow-back"></nb-icon>
+  <p class="title is-3 has-text-weight-bold is-inline-block mb-5">Open Amenities Found</p>
+  </div>
+  <br>
+  <p class="subtitle is-inline-block mr-3 mb-6">search criteria</p>
+  <div class="control is-inline-block mb-6">
   <div class="tags has-addons">
     <span class="tag is-dark">{{category}}</span>
     <span class="tag is-success">open</span>
   </div>
 </div>
+<div class="columns">
+  <div class="column">
+    <div class="card" style="width: max-content">
+      <div class="card-content p-3">
+        <div class="content">
+          <div class="block is-flex">
+            <img src="assets/sb.png" width="45px" height="45" class="is-rounded mr-1">
+            <p class="title is-5 is-inline has-text-weight-bold is-align-self-center">Starbucks <span class="tag is-success">Open Till 8:00 PM</span></p>
+          </div>
+          <div class="block">
+            <p class="is-marginless">705 St-Catherine Street West</p>
+            <p class="is-marginless">1115C</p>
+            <p class="is-marginless">Montreal, QC H3B 4G5</p>
+          </div>
+          <div class="block">
+            <p class="subtitle is-marginless mb-1">Safety Regulations</p>
+            <span class="tag is-danger is-light is-normal is-rounded mr-1">Mask Required</span> <span class="tag is-danger is-light is-normal is-rounded mr-1">Takeaway Only</span>
+            <span class="tag is-danger is-light is-normal is-rounded mr-1">Temperature Checks</span>
+          </div>
+
+          <br>
+          <span class="is-block is-size-7">Last Updated at </span>
+          <time class="is-size-7" datetime="2020-10-1">11:09 PM - 10 Oct 2020</time>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card" style="width: max-content">
+      <div class="card-content p-3">
+        <div class="content">
+          <div class="block is-flex">
+            <img src="assets/dd.png" width="45px" class="is-rounded mr-1">
+            <p class="title is-5 has-text-weight-bold is-inline is-align-self-center">Dunkin' Donuts <span class="tag is-warning">Opens 10:00 AM</span></p>
+          </div>
+          <div class="block">
+            <p class="is-marginless">710 St-Catherine Street West</p>
+            <p class="is-marginless">1214B</p>
+            <p class="is-marginless">Montreal, QC H4C 5G1</p>
+          </div>
+          <div class="block">
+            <p class="subtitle is-marginless mb-1">Safety Regulations</p>
+            <span class="tag is-danger is-light is-normal is-rounded mr-1">Mask Required</span>
+            <span class="tag is-danger is-light is-normal is-rounded mr-1">Temperature Checks</span>
+            <span class="tag is-danger is-light is-normal is-rounded mr-1">Gloves Required</span>
+          </div>
+
+          <br>
+          <span class="is-block is-size-7">Last Updated at </span>
+          <time class="is-size-7" datetime="2020-10-1">07:43 PM - 01 Oct 2020</time>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+
+  </div>
+  <div class="column">
+
+  </div>
+
+</div>
+
 
 
 </section>
